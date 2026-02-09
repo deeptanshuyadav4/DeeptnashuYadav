@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport tag for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Login | Result Management System</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="student-login.css">
+</head>
+<body>
+
+    <!-- ================= STUDENT LOGIN CONTAINER ================= -->
+    <!-- Wrapper to center the login card -->
+    <div class="login-container">
+
+        <!-- ===== LOGIN CARD ===== -->
+        <!-- Card-style layout for student login -->
+        <div class="login-card">
+
+            <h2>Student Login</h2>
+            <p class="subtitle">View Your Academic Results</p>
+
+            <!-- ===== STUDENT LOGIN FORM ===== -->
+            <!-- Static form, no backend logic -->
+            <form class="login-form">
+
+                <!-- Roll Number Field -->
+                <label for="roll">Roll Number</label>
+                <input
+                    type="text"
+                    id="roll"
+                    placeholder="Enter Roll Number"
+                    required
+                >
+
+                <!-- Date of Birth Field -->
+                <label for="dob">Date of Birth</label>
+                <input
+                    type="date"
+                    id="dob"
+                    required
+                >
+
+                <!-- Password Field -->
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter Password"
+                    required
+                >
+
+                <!-- Login Button -->
+                <button type="submit">Login</button>
+
+            </form>
+
+            <!-- ===== ADDITIONAL LINKS ===== -->
+            <div class="login-footer">
+                <p>Forgot Password?</p>
+                <p>© 2026 Student Result Management System</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
