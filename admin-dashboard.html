@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport for responsive layout -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard | Student Result System</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="admin-dashboard.css">
+</head>
+<body>
+
+    <!-- ================= SIDEBAR ================= -->
+    <!-- Sidebar for admin navigation -->
+    <aside class="sidebar">
+        <h2 class="sidebar-title">Admin Panel</h2>
+
+        <ul class="menu">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Students</a></li>
+            <li><a href="#">Results</a></li>
+            <li><a href="#">Departments</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </aside>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main class="main-content">
+
+        <!-- ===== HEADER ===== -->
+        <header class="top-header">
+            <h1>Student Result Dashboard</h1>
+            <p>Admin view for managing student academic records</p>
+        </header>
+
+        <!-- ================= SUMMARY CARDS ================= -->
+        <!-- Dashboard cards showing statistics -->
+        <section class="cards">
+            <div class="card">
+                <h3>Total Students</h3>
+                <p>120</p>
+            </div>
+
+            <div class="card">
+                <h3>Passed</h3>
+                <p>98</p>
+            </div>
+
+            <div class="card">
+                <h3>Failed</h3>
+                <p>22</p>
+            </div>
+
+            <div class="card">
+                <h3>Departments</h3>
+                <p>5</p>
+            </div>
+        </section>
+
+        <!-- ================= FILTER SECTION ================= -->
+        <!-- UI-only filter/search section -->
+        <section class="filter-section">
+            <h2>Search Student Result</h2>
+
+            <form class="filter-form">
+                <input type="text" placeholder="Enter Roll Number">
+                <select>
+                    <option>Select Department</option>
+                    <option>CSE</option>
+                    <option>IT</option>
+                    <option>ECE</option>
+                    <op
