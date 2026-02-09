@@ -1,0 +1,85 @@
+/* ================= GLOBAL STYLES ================= */
+/* Reset browser default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= PAGE BACKGROUND ================= */
+/* Center the login container using flexbox */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f3f6;
+}
+
+/* ================= LOGIN CONTAINER ================= */
+/* Wrapper for login card */
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ================= LOGIN CARD ================= */
+/* Card-style UI for login form */
+.login-card {
+    width: 350px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Subtitle text */
+.subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* ================= LOGIN FORM ================= */
+/* Vertical alignment of form elements */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+.login-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input field styling */
+.login-form input {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Login button styling */
+.login-form button {
+    padding: 10px;
+    background-color: #1f2933;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* ================= LOGIN FOOTER ================= */
+/* Footer text below form */
+.login-footer {
+    text-al
