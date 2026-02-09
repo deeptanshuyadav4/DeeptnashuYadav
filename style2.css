@@ -1,0 +1,144 @@
+/* ================= GLOBAL STYLES ================= */
+/* Applies basic styling to the entire website */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= HEADER STYLES ================= */
+/* Header layout using flexbox */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #222;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navigation menu styling */
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* ================= HERO SECTION ================= */
+/* Hero section with background and center alignment */
+.hero {
+    height: 80vh;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.hero-btn {
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+}
+
+/* ================= FEATURES SECTION ================= */
+/* Features arranged using flexbox */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.feature-box {
+    width: 30%;
+    text-align: center;
+}
+
+/* ================= PRODUCTS SECTION ================= */
+/* Product grid using CSS Grid */
+.products {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.products h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.product-card {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+/* Button styling inside product cards */
+.product-card button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #222;
+    color: white;
+    border: none;
+}
+
+/* ================= FOOTER ================= */
+/* Footer styling */
+.footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* ================= RESPONSIVE DESIGN ================= */
+/* Mobile-friendly layout */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .feature-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
